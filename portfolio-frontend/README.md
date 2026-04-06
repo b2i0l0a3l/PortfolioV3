@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✨ Modern Portfolio - Frontend (Next.js)
 
-## Getting Started
+هذا المستودع يحتوي على الواجهة الأمامية (Frontend) لمشروع المحفظة الشخصية (Portfolio)، والذي تم إعادة هيكلته ليصبح تطبيق ويب ثابت وعالي الأداء بالكامل (Fully Static Frontend Application). تم الاستغناء عن الواجهة الخلفية (.NET Backend) ولوحة التحكم لتبسيط البنية وجعل إدارة المحتوى تتم مباشرة عبر الكود المصدري.
 
-First, run the development server:
+## 🚀 التقنيات المستخدمة (Tech Stack)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+تم بناء هذا المشروع باستخدام أحدث تقنيات الويب لضمان أداء عالٍ وتجربة مستخدم مميزة:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **[Next.js 16](https://nextjs.org/)**: إطار عمل React المتكامل لتقديم واجهات عالية الأداء وتجربة SEO ممتازة.
+* **[React 19](https://react.dev/)**: بناء مكونات تفاعلية وفعالة.
+* **[Tailwind CSS v4](https://tailwindcss.com/)**: لبناء تصميم عصري وسريع التجاوب وتخصيص استايلات حديثة.
+* **[Framer Motion](https://www.framer.com/motion/)**: لإضافة حركات (Animations) دقيقة، وتأثيرات بصرية مميزة.
+* **[Lucide React](https://lucide.dev/)**: مكتبة أيقونات نظيفة وجذابة لتجميل واجهة المستخدم (UI).
+* **[TypeScript](https://www.typescriptlang.org/)**: لكتابة كود قوي، آمن، وأقل عرضة للأخطاء.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ المميزات (Features)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **تصميم عصري (Modern UI & Glassmorphism):** واجهة مستخدم توفر إحساساً احترافياً وبصرياً مريحاً باستخدام الشفافية العصرية والخطوط الأنيقة.
+2. **عالي الأداء (High Performance):** تحويل هيكلة المشروع بالكامل من خوادم وتطبيقات معقدة لتطبيق Static مما يضمن سرعة البرق في التحميل.
+3. **متجاوب بالكامل (Fully Responsive):** يدعم وتتأقلم صفحاته مع جميع أحجام الشاشات (Mobile, Tablet, Desktop).
+4. **تأثيرات بصرية جذابة (Micro-interactions):** تأثيرات حركة سلسة تعطي الحياة للصفحة باستخدام مكتبة Framer Motion.
+5. **إدارة بيانات محلية (Local Data Management):** إدارة بيانات المشاريع والمهارات من الكود المصدري بدون الحاجة لخدمات خارجية أو قواعد بيانات.
 
-## Learn More
+## 🛠️ كيف تبدأ (Getting Started)
 
-To learn more about Next.js, take a look at the following resources:
+تأكد من وجود `Node.js` مثبت لديك. لنسخ المشروع وتشغيله محلياً:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **تثبيت الحزم (Install Dependencies):**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   # أو
+   yarn install
+   # أو
+   pnpm install
+   ```
 
-## Deploy on Vercel
+2. **تشغيل بيئة التطوير (Run Development Server):**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm run dev
+   # أو
+   yarn dev
+   # أو
+   pnpm dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **معاينة المشروع (Preview):**
+   افتح المتصفح على الرابط [http://localhost:3000](http://localhost:3000) واستمتع بالمشروع جاهزاً للعمل! يمكنك أيضا تعديل `app/page.tsx` وسترى التحديثات مباشرة.
+
+## 📁 هيكلية المشروع الأساسية
+
+- `/src/app` : يحتوي على مسارات تطبيق Next.js الأساسية.
+- `/src/components`: يحتوي على جميع مكونات واجهة المستخدم التفاعلية (UI Components).
+- `/public`: الصور والأصول الثابتة.
+
+---
+
+> تم بناء هذا المشروع باهتمام بالغ بالتفاصيل للحصول على منتج يعكس الهوية الاحترافية.
